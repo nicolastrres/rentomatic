@@ -8,12 +8,7 @@ test_rentomatic
 Tests for `rentomatic` module.
 """
 
-
-import sys
 import unittest
-
-from rentomatic import rentomatic
-
 
 
 class TestRentomatic(unittest.TestCase):
