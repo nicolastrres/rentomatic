@@ -11,8 +11,8 @@ def test_storageroom_model_init():
         code,
         size=200,
         price=10,
-        longitude=-0.08392555,
-        latitude=34.75637280
+        longitude='-0.08392555',
+        latitude='34.75637280'
     )
     assert_that(storage_room.code, equal_to(code))
     assert_that(storage_room.size, equal_to(200))
@@ -28,8 +28,8 @@ def test_storage_room_model_from_dict():
             'code': code,
             'size': 200,
             'price': 10,
-            'longitude': -0.08392555,
-            'latitude': 34.75637280
+            'longitude': '-0.08392555',
+            'latitude': '34.75637280'
         }
     )
     assert_that(storage_room.code, equal_to(code))
